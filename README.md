@@ -28,29 +28,6 @@ Mednudge is a **medication tracking web application** that helps users manage th
 
 ## 📁 Project Structure
 
-mednudge/
-│
-├── server.js # Main entry point
-├── app.js # App and middleware config
-├── .env
-├── .gitignore
-├── package.json
-├── README.md
-│
-├── config/ # App configuration (default and env-based)
-│
-├── src/
-│ ├── user/ # User entity
-│ ├── role/ # Role entity
-│ ├── permission/ # Permission entity
-│ ├── department/ # Department (optional ABAC entity)
-│ ├── auth/ # Auth logic (login, JWT, role checks)
-│ ├── middleware/ # Global middleware (e.g., error handling, RBAC checks)
-│ ├── db/ # Database connection and initialization
-│ ├── utils/ # Helper functions
-│ └── validations/ # Input validation logic
-│
-└── LICENSE
 
 ---------------------------------------------------------------------------
 
